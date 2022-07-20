@@ -20,7 +20,7 @@ body{
   width: 90%;
   height:450px;
   margin-left: 5%;
-  
+  overflow: hidden;
  
 }
 /* .web-titel, .banner-img{
@@ -44,6 +44,11 @@ body{
   padding: 10px 20px;
   border-radius: 21px;
   cursor: pointer;
+  margin-top: 10px;
+}
+.button:hover{
+  background-color: white;
+  color: gray;
 }
 /* ================
                main sectiomn 
@@ -129,13 +134,13 @@ body{
  
  @media screen and (min-width:689px) and (max-width:1085px) {
    .header{
-    width: 900px;
+    width: 90%;
     height: 400px;
     background-color: rgba(0, 0, 0, 0.815);
    }
    .web-titel{
     width: 40%;
-    margin: auto;
+    margin: 5px;
     /* margin: 50px; */
   }
   .players{
@@ -157,6 +162,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 15%;
    }
    .player{
     display: grid;
@@ -218,6 +224,13 @@ body{
    .section-1 {
     background:white;
     margin-top: auto;
+   }
+   .section-1 a{
+    border: 1px solid rgba(128, 128, 128, 0.39);
+    border-radius: 5px;
+   }
+   #last, #last-1{
+    width: 80px;
    }
   .player{
     display: grid;
