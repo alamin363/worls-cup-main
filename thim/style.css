@@ -40,7 +40,10 @@ body{
   border-radius: 21px;
   cursor: pointer;
 }
-
+.button:hover{
+  background-color: white;
+  color: gray;
+}
 .section-1{
   background: black;
   height: 200px;
@@ -101,6 +104,7 @@ body{
   margin: 10px;
   border: 1px solid rgba(128, 128, 128, 0.281);
   border-radius: 10px;
+  cursor: pointer;
  }
  footer{
   width: 100%;
@@ -205,6 +209,13 @@ body{
   }
   .titel-1>h1{
     font-size:30px;
+   }
+   .section-1 a{
+    border: 1px solid rgba(128, 128, 128, 0.39);
+    border-radius: 5px;
+   }
+   #last, #last-1{
+    width: 80px;
    }
   .medile-section{
     display: flex;
