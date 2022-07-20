@@ -125,7 +125,7 @@ body{
   margin: 20px;
  }              
  
- @media screen and (min-width:689px) and (max-width:992px) {
+ @media screen and (min-width:689px) and (max-width:1085px) {
    .header{
     width: 900px;
     height: 400px;
@@ -196,6 +196,9 @@ body{
   .header{
     display: grid;
     height: 100%; 
+  }
+  .titel-1 h1{
+    font-size: 2em;
   }
   .medile-section{
     display: flex;
