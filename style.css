@@ -103,6 +103,7 @@ body{
   margin: 10px;
   border: 1px solid rgba(128, 128, 128, 0.281);
   border-radius: 10px;
+  cursor: pointer;
  }
  footer{
   width: 100%;
